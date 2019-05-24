@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="3DMath" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/3DMath" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/3DMath" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AABB3.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="AABB3.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="CommonStuff.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="CommonStuff.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="EditTriMesh.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="EulerAngles.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="EulerAngles.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="GeometricPrimitives.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="GeometricTesting.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="GeometricTesting.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="GraphicalMath.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="MathUtil.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="MathUtil.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Matrix4x3.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Matrix4x3.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Quaternion.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Quaternion.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="RotationMatrix.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="RotationMatrix.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Vector.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="VisibilityTesting.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="VisibilityTesting.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="computeBestFitNormal.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

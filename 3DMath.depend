@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1558601780 source:d:\codeblocks\myprojects\3dmath\main.cpp
+	<iostream>
+
+1557457651 source:d:\codeblocks\myprojects\3dmath\eulerangles.cpp
+	<math.h>
+	"EulerAngles.h"
+	"Quaternion.h"
+	"MathUtil.h"
+	"Matrix4x3.h"
+	"RotationMatrix.h"
+
+1557398773 d:\codeblocks\myprojects\3dmath\eulerangles.h
+
+1557479789 d:\codeblocks\myprojects\3dmath\quaternion.h
+
+1557404465 d:\codeblocks\myprojects\3dmath\mathutil.h
+	<math.h>
+
+1557650852 d:\codeblocks\myprojects\3dmath\matrix4x3.h
+
+1557566410 d:\codeblocks\myprojects\3dmath\rotationmatrix.h
+
+1557404466 source:d:\codeblocks\myprojects\3dmath\mathutil.cpp
+	<math.h>
+	"MathUtil.h"
+	"Vector3.h"
+
+1557398669 d:\codeblocks\myprojects\3dmath\vector3.h
+	<math.h>
+
+1557733155 source:d:\codeblocks\myprojects\3dmath\matrix4x3.cpp
+	<assert.h>
+	<math.h>
+	"Vector3.h"
+	"EulerAngles.h"
+	"Quaternion.h"
+	"RotationMatrix.h"
+	"Matrix4x3.h"
+	"MathUtil.h"
+
+1557651119 source:d:\codeblocks\myprojects\3dmath\quaternion.cpp
+	<assert.h>
+	<math.h>
+	"Quaternion.h"
+	"MathUtil.h"
+	"Vector3.h"
+	"EulerAngles.h"
+
+1557651147 source:d:\codeblocks\myprojects\3dmath\rotationmatrix.cpp
+	"Vector3.h"
+	"RotationMatrix.h"
+	"MathUtil.h"
+	"Quaternion.h"
+	"EulerAngles.h"
+
+1558066320 source:d:\codeblocks\myprojects\3dmath\geometrictesting.cpp
+	"Vector3.h"
+	"assert.h"
+	"GeometricPrimitives.h"
+
+1557828731 d:\codeblocks\myprojects\3dmath\geometricprimitives.h
+
+1558181572 source:d:\codeblocks\myprojects\3dmath\aabb3.cpp
+	<assert.h>
+	<stdlib.h>
+	<algorithm>
+	"AABB3.h"
+	"Matrix4x3.h"
+	"CommonStuff.h"
+
+1558098979 d:\codeblocks\myprojects\3dmath\aabb3.h
+	"Vector3.h"
+
+1558164904 source:d:\codeblocks\myprojects\3dmath\commonstuff.cpp
+	"Vector3.h"
+
+1558164903 d:\codeblocks\myprojects\3dmath\commonstuff.h
+
